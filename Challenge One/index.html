@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE T6</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <script src="assets/js/app.js"></script>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <h1>Decodificador</h1>
+    </header>
+
+    <main class="main_Container">
+
+            <div class="container">
+
+                <div class="texto_Entrada">
+                        <textarea
+                        id="texto_Input"
+                        cols="30"
+                        rows="10"
+                        placeholder="Digite seu texto."
+                        ></textarea>
+                        <p class="aviso">&#x26A0; Apenas letras minúsculas e sem acento.</p>
+
+                        <div class="botoes">
+                            <button class="botao_1" type="button" onclick="criptografarTexto()">Criptografar</button>
+                            <button class="botao_2" type="button" onclick="descriptografarTexto()">Descriptografar</button>
+                        </div>
+                </div>
+
+                <div class="texto_Saida">
+
+                    <div id="texto_Output">
+                        <p class="texto_Em_Destaque">Nenhuma mensagem encontrada.</p>
+
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+
+                    <p id="texto_Criptografado "></p>
+
+                    <div class="botoes">
+                        <button class="botao_3" id="copiar" type="button" onclick="copiarTexto()">Copiar</button>
+                    </div>
+                
+                </div>
+
+            </div>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Jefferson Souza.</p>
+
+        <div class="icones">
+            <a href="https://github.com/JeffersonSouza7">
+                <img src="assets/img/github-logo.png" alt="logo github">
+            </a>
+
+        </div>   
+        
+    </footer>
+</body>
+</html>
