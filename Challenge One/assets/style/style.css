@@ -44,7 +44,6 @@ body {
     border: none;
     outline: none;
     color: rgb(21, 180, 0);
-    text-transform: lowercase;
 }
 
 .aviso {
